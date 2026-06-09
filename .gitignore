@@ -1,0 +1,20 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+backend/*.egg-info/
+
+# Local services
+qdrant_storage/
+
+# Editors
+.idea/
+.vscode/
